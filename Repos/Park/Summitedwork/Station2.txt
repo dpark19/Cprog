@@ -1,0 +1,48 @@
+Arithmetic - includes /, %, ++, --, +, -, *,
+it is used for mathematical operations
+
+Relational - it is used to se the result of the comparision
+include ==, !=
+
+
+Logical - logical operators include &&, ||, !. 
+It is used to compare more than one conditions
+
+Bitwise - includes &, |, ^, ~, <<, >>
+manipulates one bit of an operation
+
+Assignment Operators - includes =, +=, -=, *=, /=, %=, <<=, >>=, &=, ^=, |=
+operator used to assign a new value to a variable, property, event or indexer element in C program
+
++ - Adds two operands
+- - subtracts second operand from the list
+/ - Divides numerator by de-numerator
+% - Modulus Operator and remainder of after an integer division
+++ - increment operator increases the integer value by one
+-- - Decrement operator decreases the integer value by one
+== - checks if the values of two operands are equal or not. If yes, then the condition becomes true
+!= - Checks if the values of two operands are qual or not. If the values are not equal, then the condition vbecomes true
+> - Checks if the value of left operand is greater than the value of right operand. If yes, then the condition becomes true.
+< - Checks if the value of left operand is less than the value of right operand. If yes, then the condition becomes true.
+>= - Check if the value of left operand is greater than or equal to the value of right operand. If yes, then the condition becomes true.
+<= - Checks if the value of left operand is less than or equal to the value of right operand. If yes, then the condition becomes true.
+&& - if both the operands are non-zeor, then the condition becomes true.
+|| - Checks if the values of two operands are equal or not. If yes, then the condition becomes true.
+! - Checks if the values of two operands are equal or not. If yes, then the condition becomes true.
+| - Binary OR Operator copies a bit if it exists in either operand.
+^ - Binary XOR Operator copies the bit if it is set in one operand but not both. 
+>> - Binary Right Shift Operator. The left operands value is moved right by the number of bits specified by the right operand.
+<< - Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand.
+= - Simple assignment operator. Assigns values from right side operands to left side operand
++= - Add AND assignment operator. It adds the right operand to the left operand and assign the result to the left operand.
+-= - Subtract AND assignment operator. It subtracts the right operand from the left operand and assigns the result to the left operand.
+*= - Multiply AND assignment operator. It multiplies the right operand with the left operand and assigns the result to the left operand.
+/= - Divide AND assignment operator. It divides the left operand with the right operand and assigns the result to the left operand.
+%= - Divide AND assignment operator. It divides the left operand with the right operand and assigns the result to the left operand.
+
+* - Pointer to a variable.
+& - Returns the address of a variable.
+
+Is there Precedence in C? - Yes there is
+why is it important to know diff b/w = and == - Because they are a differnt command
+= assigns a value == comparesvalue
