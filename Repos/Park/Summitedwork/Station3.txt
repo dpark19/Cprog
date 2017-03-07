@@ -1,0 +1,33 @@
+Fill in the following table:
+Type:		Storage Size(byte):	Value Range:
+char		1			-128to127 or 0to255
+unsigned char	1			0to255
+signed char	1			-128to127
+int		2or4			-32,768to32,767 or -2147483648to2,147,483,647
+unsigned int	2or4			0to65,535 or 0to4,294,967,295
+short		2			-32,768to32,767
+unsigned short	2			0to65,535
+long		4			-2,147,483,648to2,147,483,647
+unsigned long	4			0to4,294,967,295
+
+What is the difference between unsigned and signed integer types:
+unsigned integer is assumed to be possitive
+signed integer has one bit for -1 sign for negative, zero, or positive
+
+Fill in the missing pieces:
+Type:		Storage Size:		Precision:
+float		4 byte			6 decimal places
+double		8 byte			15 decimal places
+long double	10 byte			19 decimal places
+
+How are floating point types different than integer types?
+float stores floating-point values, that is, values that have potential decimal places
+int only stores integral values, that is, whole numbers
+
+Why are they useful?
+you can use it to store rounded numbers or have percision with float
+
+Explain the three kinds of situations that a void type would be used?
+when function does not return a value.
+function takes no parameters
+pointer is "universal"
